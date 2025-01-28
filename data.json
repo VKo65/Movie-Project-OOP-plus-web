@@ -1,0 +1,66 @@
+{
+    "The Shawshank Redemption": {
+        "rating": 9.5,
+        "year": 1994
+    },
+    "Pulp Fiction": {
+        "rating": 8.8,
+        "year": 1994
+    },
+    "The Room": {
+        "rating": 3.6,
+        "year": 1994
+    },
+    "The Godfather": {
+        "rating": 9.2,
+        "year": 1994
+    },
+    "The Godfather: Part II": {
+        "rating": 9.0,
+        "year": 1994
+    },
+    "The Dark Knight": {
+        "rating": 9.0,
+        "year": 1994
+    },
+    "12 Angry Men": {
+        "rating": 8.9,
+        "year": 1994
+    },
+    "Everything Everywhere All At Once": {
+        "rating": 8.9,
+        "year": 1994
+    },
+    "Forrest Gump": {
+        "rating": 8.8,
+        "year": 1994
+    },
+    "Star Wars: Episode V": {
+        "rating": 8.7,
+        "year": 1994
+    },
+    "Fritz": {
+        "year": 1999,
+        "rating": 2.0
+    },
+    "Kuno": {
+        "year": 2222,
+        "rating": 10.0
+    },
+    "Kicki": {
+        "year": 1999,
+        "rating": 6.0
+    },
+    "Bernd": {
+        "year": 1999,
+        "rating": 9.9
+    },
+    "Futter": {
+        "year": 2022,
+        "rating": 3.0
+    },
+    "The Sun": {
+        "year": 2022,
+        "rating": 7.8
+    }
+}
