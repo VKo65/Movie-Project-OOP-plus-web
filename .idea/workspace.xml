@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49afc30b-9fe6-48a6-b07a-e87fe3d4fd90" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie_Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie_Database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie_Database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_25_10_24.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_25_11_24.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/istorage.py" beforeDir="false" afterPath="$PROJECT_DIR$/istorage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_25_11_24.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:/VKo65/Movie-Project-OOP-plus-web.git",
-    "accountId": "767708a5-d6bc-4c95-884b-5df8ab30c617"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VKo65&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VKo65/Movie-Project-OOP-plus-web.git&quot;,
+    &quot;accountId&quot;: &quot;767708a5-d6bc-4c95-884b-5df8ab30c617&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -39,27 +58,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Labor.executor": "Run",
-    "Python.Movie_Database.executor": "Run",
-    "Python._25_10_24.executor": "Run",
-    "Python._25_11_24.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.movies.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/volkerkolauch/PycharmProjects/Movie-Project-OOP-plus-web",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Labor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Movie_Database.executor&quot;: &quot;Run&quot;,
+    &quot;Python._25_10_24.executor&quot;: &quot;Run&quot;,
+    &quot;Python._25_11_24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.movie_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.movies.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/volkerkolauch/PycharmProjects/Movie-Project-OOP-plus-web&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._25_11_24">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Labor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="My_Movie_Database" />
       <option name="ENV_FILES" value="" />
@@ -150,10 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._25_11_24" />
-        <item itemvalue="Python.Labor" />
-        <item itemvalue="Python._25_10_24" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python._25_10_24" />
+        <item itemvalue="Python.Labor" />
+        <item itemvalue="Python._25_11_24" />
       </list>
     </recent_temporary>
   </component>
@@ -177,18 +197,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/_25_10_24.py</url>
-          <line>140</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

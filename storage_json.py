@@ -23,7 +23,7 @@ class StorageJson(IStorage):
             raise ValueError("The JSON file is corrupted.")
 
     def _save_movies(self, movies):
-        """Saves movies to the JSON file."""
+        """Saves movies to a JSON file."""
         with open(self.file_path, 'w') as file:
             json.dump(movies, file, indent=4)
 

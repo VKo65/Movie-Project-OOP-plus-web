@@ -1,0 +1,37 @@
+{
+    "Titanic": {
+        "year": "1997",
+        "rating": "7.9",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "A new Star": {
+        "year": "2008",
+        "rating": "No Rating",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWVhN2Q5MDItNzYwMC00MjQ3LWI4M2UtNDAyMDZlOTc3YmJmXkEyXkFqcGdeQXVyMTg2Mzg4NzI@._V1_SX300.jpg"
+    },
+    "Frankenstein": {
+        "year": "1931",
+        "rating": "Approved",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDhjNjgxN2EtZGIxZC00NDQzLThmOWMtZDgwNmYwZDQ3MzZiXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "1984": {
+        "year": "1984",
+        "rating": "7.1",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTlhOTc3M2QtNmRhNy00ZjhhLTg3MzgtMGRhZjhkZTEwMjUzXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "Matrix": {
+        "year": "1993",
+        "rating": "7.2",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2JiZjU1NmQtNjg1Ni00NjA3LTk2MjMtNjYxMTgxODY0NjRhXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "Hobbit": {
+        "year": "2012",
+        "rating": "7.8",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX300.jpg"
+    },
+    "The life of Brian": {
+        "year": "2002",
+        "rating": "5.5",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzY5NTk1ODItYjI5Yy00OWYyLWFhNmYtNzRjNWQyZjIwOWQ1XkEyXkFqcGdeQXVyMjQ0NzE0MQ@@._V1_SX300.jpg"
+    }
+}

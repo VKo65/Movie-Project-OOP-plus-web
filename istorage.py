@@ -15,6 +15,7 @@ class IStorage(ABC):
 
         If a subclass does not implement these methods, Python will raise an error.
     """
+
     @abstractmethod
     def list_movies(self):
         pass

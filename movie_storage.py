@@ -6,7 +6,7 @@ from colorama import Fore, Style
 def get_movies():
     """
     Loads the movies from the JSON file and returns them as a dictionary.
-    With try I will make sure, that there is the file data.json
+    With try: I will make sure, that there is the file data.json
     """
 
     try:
@@ -56,7 +56,7 @@ def delete_movie(title):
 
 def update_movie(title, rating):
     """Update one single value of the json-file.
-    Input of the variables title and rating, happens in main.py
+    Input of the variables title and rating, happens in movie_app.py
     The new rating of the chosen movie, will be saved, after update."""
     movies = get_movies()
     if title in movies:
