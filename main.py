@@ -1,9 +1,9 @@
 from movie_app import MovieApp
-from storage_json import StorageJson
+from storage.storage_json import StorageJson
 
 def main():
     """Starts the MovieApp with the JSON storage"""
-    storage = StorageJson("movies.json")
+    storage = StorageJson("data/movies.json")
     app = MovieApp(storage)
     app.run()
 

@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49afc30b-9fe6-48a6-b07a-e87fe3d4fd90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie_Database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_25_10_24.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_25_11_24.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/istorage.py" beforeDir="false" afterPath="$PROJECT_DIR$/istorage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_storage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_25_11_24.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_storage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_json.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

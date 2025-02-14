@@ -1,0 +1,6 @@
+__pycache__/
+.vscode/
+.idea/
+*.log
+data/movies.json
+data/movies.csv
