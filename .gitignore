@@ -1,0 +1,45 @@
+# 🛑 Python-Cache-Dateien (unnötig)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🛑 Virtuelle Umgebungen (sollte nicht ins Repo)
+venv/
+.venv/
+
+# 🛑 MacOS Systemdateien (falls du auf Mac arbeitest)
+.DS_Store
+
+# 🛑 Logs & Debug-Dateien (sollten lokal bleiben)
+*.log
+logs/
+
+# 🛑 Environment-Dateien (versteckte API-Keys & sensible Daten)
+.env
+*.env
+
+# 🛑 Datenbankdateien (falls du SQLite nutzt)
+*.sqlite3
+*.db
+
+# 🛑 Node.js/Frontend-Cache (falls du JS nutzt)
+node_modules/
+dist/
+build/
+
+# 🛑 Jupyter Notebook Checkpoints (falls du Jupyter nutzt)
+.ipynb_checkpoints/
+
+# 🛑 Python-Paketmanager (falls du Pipenv oder Poetry nutzt)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# 🛑 IDE- & Editor-Dateien (PyCharm, VS Code, etc.)
+.vscode/
+.idea/
+*.iml
+
+# 🛑 HTML-Generierte Dateien (falls du sie automatisch erstellst)
+index.html

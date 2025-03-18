@@ -1,3 +1,17 @@
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatische Anpassung */
+    gap: 15px; /* Abstand zwischen den Filmen */
+    padding: 0;
+    list-style: none;
+}
+
+.movie {
+    text-align: center;
+}
+
+
+
 body {
   background: #F5F5F0;
   color: black;

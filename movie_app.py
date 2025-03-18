@@ -48,8 +48,12 @@ class MovieApp:
                     rating = "No Rating"
                 poster = movie_data.get("Poster", "")
 
-                self._storage.add_movie(title, {"year": year, "rating": rating, "poster": poster})
-                print(f"✅ Movie '{title}' was added successfully!")
+                try:
+                    self._storage.add_movie(title, {"year": year, "rating": rating, "poster": poster})
+                    print(f"✅ Movie '{title}' was added successfully!")
+                except ValueError as e:
+                    print(f"⚠️ {e}")
+
             else:
                 print(f"⚠️ Movie '{title}' not found in API.")
 
@@ -126,13 +130,13 @@ class MovieApp:
                         </div>
                     </li>
                     """
-                final_html = template_content.replace("__TEMPLATE_TITLE__", "My Movie Collection")
-                final_html = final_html.replace("__TEMPLATE_MOVIE_GRID__", movie_grid)
+        final_html = template_content.replace("__TEMPLATE_TITLE__", "My Movie Collection")
+        final_html = final_html.replace("__TEMPLATE_MOVIE_GRID__", movie_grid)
 
 
-                output_path = os.path.join(os.getcwd(), "index.html")
-                with open(output_path, "w", encoding="utf-8") as file:
-                    file.write(final_html)
+        output_path = os.path.join(os.getcwd(), "index.html")
+        with open(output_path, "w", encoding="utf-8") as file:
+            file.write(final_html)
 
         print(f"✅ Website was generated successfully: {output_path}")
 
