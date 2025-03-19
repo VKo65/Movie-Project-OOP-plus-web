@@ -10,6 +10,9 @@ class MovieApp:
     """
     A movie management application that allows users to store, list,
     analyze, and generate an HTML page for their movie collection.
+
+    Attributes:
+        storage (IStorage): An instance of a storage backend (e.g., StorageJson).
     """
 
     def __init__(self, storage):
@@ -21,17 +24,26 @@ class MovieApp:
         self._storage = storage
 
     def _command_list_movies(self):
-        """Retrieves and displays all stored movies."""
+        """
+        Retrieves and displays all stored movies from the storage backend.
+
+        If no movies are stored, it informs the user accordingly.
+        """
         movies = self._storage.list_movies()
         if movies:
             for title, details in movies.items():
                 print(
-                    f"{title} ({details.get('year', 'Unbekannt')}) - rating: {details.get('rating', 'Keine Bewertung')}")
+                    f"{title} ({details.get('year', 'unknown')}) - rating: {details.get('rating', 'No rating')}")
         else:
             print("No movie available.")
 
     def _command_add_movie(self):
-        """Fetches movie data from an API and saves it."""
+        """
+        Fetches movie data from an external API and saves it to the storage.
+
+        Prompts the user to enter a movie title, retrieves its details (year, rating, poster)
+        from the OMDB API, and stores it in the selected storage backend.
+        """
 
         title = input("Enter movie title: ")
         api_url = f"http://www.omdbapi.com/?apikey={api_key}&t={title}"
@@ -67,16 +79,30 @@ class MovieApp:
 
 
     def _command_del_movie(self):
+        """
+        Deletes a movie from the storage backend.
 
+        Prompts the user for a movie title and removes it from storage if it exists.
+        """
         movie_delete = str(input("Please enter movie to delete: "))
 
-        self._storage.delete_movie(movie_delete)
-        print(f"Movie '{movie_delete}' was deleted successfully!")
+        try:
+            self._storage.delete_movie(movie_delete)
+            print(f"✅ Movie '{movie_delete}' was deleted successfully!")
+        except ValueError as e:
+            print(f"⚠️ {e}")
 
 
     def _command_movie_stats(self):
         """
         Calculates and displays statistics based on stored movies.
+
+        Computes and prints:
+        - The average rating of all stored movies.
+        - The highest-rated movie.
+        - The lowest-rated movie.
+
+        If no ratings exist, informs the user.
         """
         movies = self._storage.list_movies()
         if not movies:
@@ -98,7 +124,12 @@ class MovieApp:
             print("No rating.")
 
     def _generate_website(self):
-        """Generates an HTML page displaying the movie collection."""
+        """
+        Generates an HTML file that displays the user's movie collection.
+
+        Reads an HTML template, inserts movie data dynamically, and saves
+        the output as an `index.html` file in the current directory.
+        """
         movies = self._storage.list_movies()
 
         if not movies:
@@ -170,5 +201,5 @@ class MovieApp:
                 print("Exit.")
                 break
             else:
-                print("Invalid input. Please enter a number from 1-5!")
+                print("Invalid input. Please enter a number from 1-6!")
 

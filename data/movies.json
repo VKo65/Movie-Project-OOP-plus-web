@@ -1,9 +1,4 @@
 {
-    "Titanic": {
-        "year": "1997",
-        "rating": "7.9",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg"
-    },
     "A new Star": {
         "year": "2008",
         "rating": "No Rating",
@@ -43,5 +38,25 @@
         "year": "1984",
         "rating": "7.1",
         "poster": "https://m.media-amazon.com/images/M/MV5BYTlhOTc3M2QtNmRhNy00ZjhhLTg3MzgtMGRhZjhkZTEwMjUzXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "Robin Hood": {
+        "year": "2010",
+        "rating": "6.6",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTM5NzcwMzEwOF5BMl5BanBnXkFtZTcwNjg5MTgwMw@@._V1_SX300.jpg"
+    },
+    "Life of Brian": {
+        "year": "1979",
+        "rating": "8.0",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDMzY2E4NjEtMTJiZC00Y2UzLWFiM2MtZWVhNTg5OGQxNjk1XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "Titanic": {
+        "year": "1997",
+        "rating": "7.9",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "rg": {
+        "year": "1991\u2013",
+        "rating": "5.9",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTk3MzU5MTUwM15BMl5BanBnXkFtZTcwNDUxMjkxMQ@@._V1_SX300.jpg"
     }
 }

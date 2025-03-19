@@ -1,7 +1,7 @@
 import csv
 from istorage import IStorage
 
-class StorageCSV:
+class StorageCSV(IStorage):
     """A storage class that manages movies using a CSV file.
     Implements the IStorage interface."""
 
@@ -55,7 +55,11 @@ class StorageCSV:
         movies = self._load_movies()
         if title in movies:
             raise ValueError(f"Movie '{title}' already exists.")
-        movies[title] = details
+        movies[title] = {
+            "year": details["year"],
+            "rating": details["rating"],
+            "poster": details["poster"]
+        }
         self._save_movies(movies)
 
     def delete_movie(self, title):
